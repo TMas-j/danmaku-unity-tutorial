@@ -20,7 +20,8 @@ MemoryCaptures/
 *.pidb
 *.booproj
 
-.vscode
+# Visual Studio code
+.vscode/*
 
 # OS
 .DS_Store
