@@ -516,7 +516,7 @@ MonoBehaviour:
   firePoint: {fileID: 1522556064}
   fireInterval: 0.2
   player: {fileID: 711876648}
-  burstCount: 0
+  burstCount: 5
   restTime: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

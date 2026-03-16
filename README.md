@@ -2,9 +2,11 @@
 
 ブログ記事で解説しているUnityプロジェクトです。
 
+2Dシューティングゲームの弾幕をUnityで作成する手順を記事にしています。
+
 ## ブログ
 
-https://myblog-ee8.pages.dev/
+遊びバ： https://myblog-ee8.pages.dev/
 
 ### 記事一覧
 

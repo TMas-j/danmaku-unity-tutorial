@@ -6,13 +6,21 @@ public class EnemyBullet : MonoBehaviour
     // 弾の移動速度
     public float speed = 5f;
 
+    // 弾の移動方向
+    private Vector2 direction;
+
+    // 発射時に方向を設定する
+    public void SetDirection(Vector2 dir)
+    {
+        direction = dir;
+    }
+
     void Update()
     {
-        // 弾を左方向に移動させる
-        // Vector2.left は (-1, 0) を表し、画面の左方向を意味する
+        // 弾をDirection方向に移動
         // speed を掛けることで移動速度を調整
         // Time.deltaTime を掛けることでフレームレートに依存しない移動になる
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
+        transform.Translate(direction * speed * Time.deltaTime);
 
         // 画面外に出たら弾を削除する
         CheckOutOfScreen();
